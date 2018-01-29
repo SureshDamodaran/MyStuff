@@ -1,5 +1,6 @@
 # If we have only one argument the value assigned is displayed in output with box brackets like ["DAV"]
-schoolname = ARGV  # Receive one argument from command line
+# or we have to use ARGV.first to display the value without box brackets.
+schoolname = ARGV # Receive one argument from command line
 
 #schoolname = $stdin.gets.chomp
 puts "Your School name is: #{schoolname}"
